@@ -1,13 +1,109 @@
-body {
+* {
+  box-sizing: border-box;
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background: #282d35;
+}
+
+main {
+  background-image: url(./images/pngfind.com-react-logo-png-6386413.png);
+  background-repeat: no-repeat;
+  background-size: 10em;
+
+  background-position: right 100%;
+}
+
+.navbar-container {
+  width: 100%;
+  height: 91px;
+  background: #21222a;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.react-logo {
+  width: 35.93px;
+  height: 30.93px;
+  margin-left: 40px;
+  margin-right: 10px;
+}
+
+.react-h3 {
+  width: 122.39px;
+  height: 22.25px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 27px;
+  letter-spacing: -0.05em;
+  margin-right: auto;
+  color: #61dafb;
+}
+
+.react-course {
+  width: 259px;
+  height: 21px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #deebf8;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5em;
+}
+
+.fun-facts {
+  margin-left: .3em;
+  margin-top: .7em;
+  width: 100%;
+  height: 41px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4rem;
+  letter-spacing: -0.05em;
+  color: #ffffff;
+}
+
+ul {
+  padding: 0;
+  margin-left: 5em;
+  margin-top: 2em;
+}
+
+li {
+  padding-left: 1em;
+  text-indent: -0.7em;
+  width: 70%;
+  height: 50px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+
+  color: #ffffff;
+}
+
+.react-list > li::marker {
+  color: #61dafb;
+  font-size: 1.2em;
+}
+
+.bkg-logo {
+  width: 263px;
+height: 263px;
+left: 418px;
+top: 198px;
+
 }
