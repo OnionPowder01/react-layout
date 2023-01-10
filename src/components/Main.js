@@ -1,8 +1,8 @@
 import React from "react"
 
-export default function Main() {
+export default function Main(props) {
     return (
-        <main className="main-container">
+        <main className={props.darkMode ? "dark" : ""}>
             <h1 className="fun-facts">Fun facts about React</h1>
             <ul className="react-list">
                 <li>Was first released in 2013</li>
