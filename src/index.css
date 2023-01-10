@@ -27,6 +27,8 @@ nav {
   height: 60px;
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
   z-index: 1;
+  margin-top: -10px;
+  margin-left: -10px;
 }
 
 nav.dark {
@@ -41,6 +43,7 @@ nav.dark {
 .nav--logo_text {
   color: #61DAFB;
   margin-right: auto;
+  font-size: 1.5rem;
 }
 
 .nav--title {
@@ -53,7 +56,7 @@ nav.dark {
 }
 
 .toggler p {
-  font-size: 0.625rem;
+  font-size: 1rem;
   font-weight: 600;
 }
 
@@ -128,13 +131,14 @@ main.dark {
 
 .main--title {
   margin: 0;
-  font-size: 39px;
+  font-size: 3.2rem;
   letter-spacing: -0.05em;
 }
 
 .main--facts {
   margin-top: 46px;
   max-width: 400px;
+  font-size: 1.2rem;
 }
 
 .main--facts > li {
