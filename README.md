@@ -4,7 +4,7 @@
 
 ![This is an image](https://user-images.githubusercontent.com/106592392/212930689-63e4bbeb-cca3-4620-b441-327eaefcd4e0.png)
 
-React Layout with Dark/Light mode
+React Layout with Dark/Light toggle
 
 ### Technologies Used
 
